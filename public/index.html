@@ -10,7 +10,6 @@
 
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
     <link
@@ -54,10 +53,11 @@
       >
         <div class="contact-info d-flex align-items-center">
           <i class="bi bi-envelope-fill"></i
-          ><a href="mailto:contact@example.com"
+          ><a href="mailto:contact@example.com" style="font-size: 12px"
             >kalandarovjamshid01@gmail.com</a
           >
-          <i class="bi bi-phone-fill phone-icon"></i> +99897-507-70-61
+          <i class="bi bi-phone-fill phone-icon"></i
+          ><span style="font-size: 12px">+998-97-507-70-61</span>
         </div>
         <div class="social-links d-none d-md-block">
           <a href="#" class="twitter"><i class="bi bi-telegram"></i></a>
@@ -92,7 +92,7 @@
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center">
+    <section id="hero" class="d-flex align-items-center h-100">
       <div
         class="container position-relative"
         data-aos="fade-up"
@@ -105,7 +105,6 @@
           >Bunda biz sizga yordam beramiz. Biz bilan zamonaviy kasblarni
           o'rganing.<span><br /></span>Biz bilan yorqin kelajak sari...
         </h2>
-
         <a href="#about" class="btn-get-started scrollto">Hoziroq qo'shiling</a>
       </div>
     </section>
@@ -285,15 +284,18 @@
                 class="img-fluid"
                 alt=""
               />
-              <div class="portfolio-info flex-row">
-                <div class="d-flex justify-content-between align-items-center">
-                  <h4>Frontend</h4>
+              <div class="p-3 flex-row">
+                <h3 class="fw-bold">Frontend</h3>
+                <div
+                  class="d-flex justify-content-between align-items-center pb-2"
+                >
+                  <i class="bi bi-book" style="font-style: normal">120 Dars</i>
                   <i class="bi bi-person" style="font-style: normal">15</i>
                 </div>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="star">
-                    &bigstar; &bigstar; &bigstar; &bigstar; &bigstar;
-                  </div>
+                  <a href="" class="btn btn-outline-success"
+                    >Hoziroq Qo'shiling</a
+                  >
                   <button
                     class="btn btn-outline-primary"
                     type="button"
@@ -311,7 +313,7 @@
                   aria-labelledby="offcanvasTopLabel"
                 >
                   <div class="offcanvas-header">
-                    <h5 id="offcanvasTopLabel">Frontend</h5>
+                    <h5 id="offcanvasTopLabel" class="fw-bold">Frontend</h5>
                     <button
                       type="button"
                       class="btn-close text-reset"
@@ -319,60 +321,192 @@
                       aria-label="Close"
                     ></button>
                   </div>
-                  <div class="offcanvas-body fw-bold">
-
+                  <div class="offcanvas-body">
+                    <ul>
+                      <li>Darslar: 120</li>
+                      <li>O'quvchilar soni: 15</li>
+                      <li>Narx: <del>600,000</del></li>
+                      <li>Chegirma narx: 300,000</li>
+                      <li>Haftada Darslar: 3 kun</li>
+                      <li>Dars vaqti: 19:00-21:30</li>
+                      <li>Dars davomiyligi: 6oy</li>
+                      <li>Amaliyot: +1 oy</li>
+                      <li>Texnologiyalar:</li>
+                      <ol class="fw-bold">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SASS</li>
+                        <li>BOOTSTRAP</li>
+                        <li>GIT, GITHUB</li>
+                        <li>JAVASCRIPT</li>
+                        <li>JQUERY</li>
+                        <li>FIREBASE</li>
+                        <li>AWS</li>
+                        <li>REST API</li>
+                        <li>GRAPHQL</li>
+                        <li>REACTJs</li>
+                        <li>TYPESCRIPT</li>
+                        <li>JWT</li>
+                      </ol>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
-
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
               <img
-                src="assets/img/portfolio/portfolio-7.jpg"
+                src="assets/img/portfolio/portfolio-4.jpg"
                 class="img-fluid"
                 alt=""
               />
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <a
-                  href="assets/img/portfolio/portfolio-7.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="Card 1"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+              <div class="p-3 flex-row">
+                <h3 class="fw-bold">Backend</h3>
+                <div
+                  class="d-flex justify-content-between align-items-center pb-2"
+                >
+                  <i class="bi bi-book" style="font-style: normal">140 Dars</i>
+                  <i class="bi bi-person" style="font-style: normal">15</i>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="" class="btn btn-outline-success"
+                    >Hoziroq Qo'shiling</a
+                  >
+                  <button
+                    class="btn btn-outline-primary"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasTop2"
+                    aria-controls="offcanvasTop"
+                  >
+                    Ko'proq
+                  </button>
+                </div>
+                <div
+                  class="offcanvas offcanvas-top h-100 m-5 p-3"
+                  tabindex="100"
+                  id="offcanvasTop2"
+                  aria-labelledby="offcanvasTopLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 id="offcanvasTopLabel" class="fw-bold">Backend</h5>
+                    <button
+                      type="button"
+                      class="btn-close text-reset"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul>
+                      <li>Darslar: 140</li>
+                      <li>O'quvchilar soni: 15</li>
+                      <li>Narx: <del>600,000</del></li>
+                      <li>Chegirma narx: 300,000</li>
+                      <li>Haftada Darslar: 3 kun</li>
+                      <li>Dars vaqti: 19:00-21:30</li>
+                      <li>Dars davomiyligi: 7 oy</li>
+                      <li>Amaliyot: +1 oy</li>
+                      <li>Texnologiyalar:</li>
+                      <ol class="fw-bold">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>GIT, GITHUB</li>
+                        <li>JAVASCRIPT</li>
+                        <li>NODEJS</li>
+                        <li>EXPRESSJS</li>
+                        <li>MONGODB</li>
+                        <li>REDIS</li>
+                        <li>POSTGRESQL</li>
+                        <li>AWS SERVERS</li>
+                        <li>REST API</li>
+                        <li>GRAPHQL</li>
+                        <li>FIREBASE</li>
+                        <li>DOCKER</li>
+                        <li>TYPESCRIPT</li>
+                      </ol>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
-
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
               <img
-                src="assets/img/portfolio/portfolio-8.jpg"
+                src="assets/img/portfolio/portfolio-4.jpg"
                 class="img-fluid"
                 alt=""
               />
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <a
-                  href="assets/img/portfolio/portfolio-8.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="Card 3"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+              <div class="p-3 flex-row">
+                <h3 class="fw-bold">FullStack</h3>
+                <div
+                  class="d-flex justify-content-between align-items-center pb-2"
+                >
+                  <i class="bi bi-book" style="font-style: normal">160 Dars</i>
+                  <i class="bi bi-person" style="font-style: normal">15</i>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="" class="btn btn-outline-success"
+                    >Hoziroq Qo'shiling</a
+                  >
+                  <button
+                    class="btn btn-outline-primary"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasTop3"
+                    aria-controls="offcanvasTop"
+                  >
+                    Ko'proq
+                  </button>
+                </div>
+                <div
+                  class="offcanvas offcanvas-top h-100 m-5 p-3"
+                  tabindex="100"
+                  id="offcanvasTop3"
+                  aria-labelledby="offcanvasTopLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 id="offcanvasTopLabel" class="fw-bold">FullStack</h5>
+                    <button
+                      type="button"
+                      class="btn-close text-reset"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul>
+                      <li>Darslar: 160</li>
+                      <li>O'quvchilar soni: 15</li>
+                      <li>Narx: <del>700,000</del></li>
+                      <li>Chegirma narx: 350,000</li>
+                      <li>Haftada Darslar: 4 kun</li>
+                      <li>Dars vaqti: 19:00-21:30</li>
+                      <li>Dars davomiyligi: 8 oy</li>
+                      <li>Amaliyot: +1 oy</li>
+                      <li>Texnologiyalar:</li>
+                      <ol class="fw-bold">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>BOOTSTRAP</li>
+                        <li>GIT, GITHUB</li>
+                        <li>JAVASCRIPT</li>
+                        <li>JQUERY</li>
+                        <li>REACTJS</li>
+                        <li>REST API</li>
+                        <li>GRAPHQL</li>
+                        <li>NODEJS</li>
+                        <li>EXPRESSJS</li>
+                        <li>MONGODB</li>
+                        <li>REDIS</li>
+                        <li>POSTGRESQL</li>
+                        <li>AWS SERVERS</li>
+                        <li>FIREBASE</li>
+                        <li>DOCKER</li>
+                        <li>AWS</li>
+                        <li>TYPESCRIPT</li>
+                      </ol>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -380,92 +514,11 @@
       </section>
       <!-- End Portfolio Section -->
 
-      <!-- ======= Pricing Section ======= -->
-      <section id="pricing" class="pricing">
-        <div class="container">
-          <div class="section-title">
-            <span>Pricing</span>
-            <h2>Pricing</h2>
-            <p>
-              Sit sint consectetur velit quisquam cupiditate impedit suscipit
-              alias
-            </p>
-          </div>
-
-          <div class="row">
-            <div
-              class="col-lg-4 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="150"
-            >
-              <div class="box">
-                <h3>Free</h3>
-                <h4><sup>$</sup>0<span> / month</span></h4>
-                <ul>
-                  <li>Aida dere</li>
-                  <li>Nec feugiat nisl</li>
-                  <li>Nulla at volutpat dola</li>
-                  <li class="na">Pharetra massa</li>
-                  <li class="na">Massa ultricies mi</li>
-                </ul>
-                <div class="btn-wrap">
-                  <a href="#" class="btn-buy">Buy Now</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in">
-              <div class="box featured">
-                <h3>Business</h3>
-                <h4><sup>$</sup>19<span> / month</span></h4>
-                <ul>
-                  <li>Aida dere</li>
-                  <li>Nec feugiat nisl</li>
-                  <li>Nulla at volutpat dola</li>
-                  <li>Pharetra massa</li>
-                  <li class="na">Massa ultricies mi</li>
-                </ul>
-                <div class="btn-wrap">
-                  <a href="#" class="btn-buy">Buy Now</a>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 mt-4 mt-lg-0"
-              data-aos="zoom-in"
-              data-aos-delay="150"
-            >
-              <div class="box">
-                <h3>Developer</h3>
-                <h4><sup>$</sup>29<span> / month</span></h4>
-                <ul>
-                  <li>Aida dere</li>
-                  <li>Nec feugiat nisl</li>
-                  <li>Nulla at volutpat dola</li>
-                  <li>Pharetra massa</li>
-                  <li>Massa ultricies mi</li>
-                </ul>
-                <div class="btn-wrap">
-                  <a href="#" class="btn-buy">Buy Now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Pricing Section -->
-
       <!-- ======= Team Section ======= -->
       <section id="team" class="team">
         <div class="container">
           <div class="section-title">
-            <span>Team</span>
-            <h2>Team</h2>
-            <p>
-              Sit sint consectetur velit quisquam cupiditate impedit suscipit
-              alias
-            </p>
+            <h2>Jamoamiz</h2>
           </div>
 
           <div class="row">
@@ -475,15 +528,11 @@
             >
               <div class="member">
                 <img src="assets/img/team/team-1.jpg" alt="" />
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <p>
-                  Magni qui quod omnis unde et eos fuga et exercitationem. Odio
-                  veritatis perspiciatis quaerat qui aut aut aut
-                </p>
+                <h4>Jamshid Kalandarov</h4>
+                <span>Middle FullStack Developer</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-github"></i></a>
+                  <a href=""><i class="bi bi-telegram"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -496,15 +545,11 @@
             >
               <div class="member">
                 <img src="assets/img/team/team-2.jpg" alt="" />
-                <h4>Sarah Jhinson</h4>
-                <span>Product Manager</span>
-                <p>
-                  Repellat fugiat adipisci nemo illum nesciunt voluptas
-                  repellendus. In architecto rerum rerum temporibus
-                </p>
+                <h4>Umid Rustamov</h4>
+                <span>Senior Backend Developer</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-github"></i></a>
+                  <a href=""><i class="bi bi-telegram"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -517,15 +562,11 @@
             >
               <div class="member">
                 <img src="assets/img/team/team-3.jpg" alt="" />
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <p>
-                  Voluptas necessitatibus occaecati quia. Earum totam
-                  consequuntur qui porro et laborum toro des clara
-                </p>
+                <h4>Mironshoh Asadov</h4>
+                <span>Middle Frontend Developer</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-github"></i></a>
+                  <a href=""><i class="bi bi-telegram"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -535,120 +576,6 @@
         </div>
       </section>
       <!-- End Team Section -->
-
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
-        <div class="container">
-          <div class="section-title">
-            <span>Contact</span>
-            <h2>Contact</h2>
-            <p>
-              Sit sint consectetur velit quisquam cupiditate impedit suscipit
-              alias
-            </p>
-          </div>
-
-          <div class="row" data-aos="fade-up">
-            <div class="col-lg-6">
-              <div class="info-box mb-4">
-                <i class="bx bx-map"></i>
-                <h3>Our Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-              <div class="info-box mb-4">
-                <i class="bx bx-envelope"></i>
-                <h3>Email Us</h3>
-                <p>contact@example.com</p>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-              <div class="info-box mb-4">
-                <i class="bx bx-phone-call"></i>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row" data-aos="fade-up">
-            <div class="col-lg-6">
-              <iframe
-                class="mb-4 mb-lg-0"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                frameborder="0"
-                style="border: 0; width: 100%; height: 384px"
-                allowfullscreen
-              ></iframe>
-            </div>
-
-            <div class="col-lg-6">
-              <form
-                action="forms/contact.php"
-                method="post"
-                role="form"
-                class="php-email-form"
-              >
-                <div class="row">
-                  <div class="col-md-6 form-group">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                      placeholder="Your Name"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      id="email"
-                      placeholder="Your Email"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="form-group mt-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="subject"
-                    id="subject"
-                    placeholder="Subject"
-                    required
-                  />
-                </div>
-                <div class="form-group mt-3">
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    rows="5"
-                    placeholder="Message"
-                    required
-                  ></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
-                </div>
-                <div class="text-center">
-                  <button type="submit">Send Message</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Contact Section -->
     </main>
     <!-- End #main -->
 
@@ -659,23 +586,19 @@
           <div class="row">
             <div class="col-lg-4 col-md-6">
               <div class="footer-info">
-                <h3>Day</h3>
+                <h3>TSUE_IT</h3>
                 <p>
-                  A108 Adam Street <br />
-                  NY 535022, USA<br /><br />
-                  <strong>Phone:</strong> +1 5589 55488 55<br />
-                  <strong>Email:</strong> info@example.com<br />
+                  Amir Temur ko'chasi <br />
+                  Tashkent<br /><br />
+                  <strong>Nomer:</strong> +998-97-507-70-61<br />
+                  <strong>Email:</strong>
+                  kalandarovjamshid01@gmail.com.com<br />
                 </p>
                 <div class="social-links mt-3">
-                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                  <a href="#" class="facebook"
-                    ><i class="bx bxl-facebook"></i
-                  ></a>
+                  <a href="" class="twitter"><i class="bx bxl-telegram"></i></a>
+                  <a href="#" class="facebook"><i class="bx bxl-github"></i></a>
                   <a href="#" class="instagram"
                     ><i class="bx bxl-instagram"></i
-                  ></a>
-                  <a href="#" class="google-plus"
-                    ><i class="bx bxl-skype"></i
                   ></a>
                   <a href="#" class="linkedin"
                     ><i class="bx bxl-linkedin"></i
@@ -732,11 +655,8 @@
             </div>
 
             <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4>Our Newsletter</h4>
-              <p>
-                Tamen quem nulla quae legam multos aute sint culpa legam noster
-                magna
-              </p>
+              <h4>Savollar uchun:</h4>
+              <p>Sizni qiziqtirgan savollarga javob beramiz.</p>
               <form action="" method="post">
                 <input type="email" name="email" /><input
                   type="submit"
@@ -750,7 +670,7 @@
 
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>Day</span></strong
+          &copy; Copyright <strong><span>MagicSoft Pro</span></strong
           >. All Rights Reserved
         </div>
         <div class="credits">
@@ -758,7 +678,7 @@
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/day-multipurpose-html-template-for-free/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed by <a href="">Kalandarov Jamshid</a>
         </div>
       </div>
     </footer>
