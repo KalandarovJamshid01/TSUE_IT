@@ -1,0 +1,246 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(content='width=device-width, initial-scale=1.0' name='viewport')
+  title TSUE_IT
+  meta(content='' name='description')
+  meta(content='' name='keywords')
+  // Favicons
+  link(href='assets/img/favicon.png' rel='icon')
+  // Google Fonts
+  link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i' rel='stylesheet')
+  // Vendor CSS Files
+  link(href='assets/vendor/aos/aos.css' rel='stylesheet')
+  link(href='assets/vendor/bootstrap/css/bootstrap.min.css' rel='stylesheet')
+  link(href='assets/vendor/bootstrap-icons/bootstrap-icons.css' rel='stylesheet')
+  link(href='assets/vendor/boxicons/css/boxicons.min.css' rel='stylesheet')
+  link(href='assets/vendor/glightbox/css/glightbox.min.css' rel='stylesheet')
+  link(href='assets/vendor/swiper/swiper-bundle.min.css' rel='stylesheet')
+  // Template Main CSS File
+  link(href='assets/css/style.css' rel='stylesheet')
+  //
+    =======================================================
+    * Template Name: Day - v4.9.1
+    * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ========================================================
+// ======= Top Bar =======
+section#topbar.d-flex.align-items-center
+  .container.d-flex.justify-content-center.justify-content-md-between
+    .contact-info.d-flex.align-items-center
+      i.bi.bi-envelope-fill
+      a(href='mailto:contact@example.com' style='font-size: 12px') kalandarovjamshid01@gmail.com
+      i.bi.bi-phone-fill.phone-icon
+      span(style='font-size: 12px') +998-97-507-70-61
+    .social-links.d-none.d-md-block
+      a.twitter(href='#')
+        i.bi.bi-telegram
+      a.facebook(href='#')
+        i.bi.bi-github
+      a.instagram(href='#')
+        i.bi.bi-instagram
+// ======= Header =======
+header#header.d-flex.align-items-center
+  .container.d-flex.align-items-center.justify-content-between
+    h1.logo
+      a(href='index.html') TSUE_IT
+    // Uncomment below if you prefer to use an image logo
+    // <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+    nav#navbar.navbar
+      ul
+        li
+          a.nav-link.scrollto(href='/index.html#hero') Home
+        li
+          a.nav-link.scrollto(href='/index.html#about') Why IT
+        li
+          a.nav-link.scrollto(href='/index.html#services') Why Us
+        li
+          a.nav-link.scrollto(href='/index.html#portfolio') Courses
+        li
+          a.nav-link.scrollto(href='/index.html#team') Team
+        li
+          a.nav-link.scrollto(href='/register.html') Register
+      i.bi.bi-list.mobile-nav-toggle
+    // .navbar
+main.container.pt-3
+  form(action='').registerForm
+    .row.gap-3.justify-content-lg-around
+      .form-group.col-lg-5.col-sm-12
+        label(for='name')
+          | Ism 
+          span.text-danger (Required)
+        input.form-control.name(type='text' required='')
+      .form-group.col-lg-5.col-sm-12
+        label(for='surname')
+          | Familya 
+          span.text-danger (Required)
+        input.form-control.surName(type='text' required='')
+      .form-group.col-lg-5.col-sm-12
+        label(for='birthdate')
+          | Tug&apos;ilgan vaqti
+          span.text-danger (Required)
+        input.form-control.birthDate(type='date' required='')
+      .form-group.col-lg-5.col-sm-12
+        label(for='number')
+          | Telefon nomer 
+          span.text-danger (Required)
+        input.form-control.number(type='number' required='' value='+998-')
+      .form-group.col-lg-5.col-sm-12
+        label(for='address')
+          | Manzilingiz 
+          span.text-danger (Required)
+        input.form-control.address(type='text' required='')
+      .form-group.col-lg-5.col-sm-12
+        label(for='faculty')
+          | Fakultet 
+          span.text-danger (Required)
+        input.form-control.faculty(type='text' required='')
+      .form-group.col-lg-5.col-sm-12
+        label(for='direction')
+          | Yo&apos;nalishingiz 
+          span.text-danger (Required)
+        input.form-control.direction(type='text' required='')
+      .form-group.col-lg-5.col-sm-12
+        label(for='grade')
+          | Nechinchi kurssiz?
+          span.text-danger (Required)
+        select.form-control.grade(name='' id='')
+          option(value='1') 1
+          option(value='2') 2
+          option(value='3') 2
+          option(value='4') 4
+          option(value='Boshqa') Boshqa
+      .form-group.col-lg-5.col-sm-12
+        label(for='course')
+          | Qaysi yo&apos;nalishda o&apos;qimoqchisiz?
+          span.text-danger (Required)
+        select.form-control.course(name='' id='')
+          option(value='Frontend') Frontend
+          option(value='Backend') Backend
+          option(value='FullStack') FullStack
+      .form-group.col-lg-5.col-sm-12
+        label(for='startTime')
+          | Kurs qachondan boshlansin?
+          span.text-danger (Required)
+        select.form-control.startTime(name='' id='')
+          option(value='01.11.2022') 01.11.2022
+          option(value='10.11.2022') 10.11.2022
+          option(value='15.11.2022') 15.11.2022
+      .form-group.col-lg-5.col-sm-12
+        label(for='english')
+          | Ingliz tili darajangiz?
+          span.text-danger (Required)
+        select.form-control.english(name='' id='')
+          option(value='Beginner') Beginner
+          option(value='Intermediate') Intermediate
+          option(value='Advanced') Advanced
+      .form-group.col-lg-5.col-sm-12
+        label(for='math')
+          | Matematika darajangiz
+          span.text-danger (Required)
+        select.form-control.math(name='' id='')
+          option(value="Boshlang'ich",) Boshlang&apos;ich
+          option(value="O'rta") O&apos;rta
+          option(value="A'lo darajada") Yuqori
+      .form-group.col-lg-5.col-sm-12.d-flex.justify-content-center.pb-3
+        button.btn.btn-primary(type='submit') Register
+// End Header
+footer#footer
+  .footer-top
+    .container
+      .row
+        .col-lg-4.col-md-6
+          .footer-info
+            h3 TSUE_IT
+            p
+              | Amir Temur ko&apos;chasi 
+              br
+              |                   Tashkent
+              br
+              br
+              strong Nomer:
+              |  +998-97-507-70-61
+              br
+              strong Email:
+              |                   kalandarovjamshid01@gmail.com.com
+              br
+            .social-links.mt-3
+              a.twitter(href='')
+                i.bx.bxl-telegram
+              a.facebook(href='#')
+                i.bx.bxl-github
+              a.instagram(href='#')
+                i.bx.bxl-instagram
+              a.linkedin(href='#')
+                i.bx.bxl-linkedin
+        .col-lg-2.col-md-6.footer-links
+          h4 Useful Links
+          ul
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Home
+            li
+              i.bx.bx-chevron-right
+              a(href='#') About us
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Services
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Terms of service
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Privacy policy
+        .col-lg-2.col-md-6.footer-links
+          h4 Our Services
+          ul
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Web Design
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Web Development
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Product Management
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Marketing
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Graphic Design
+        .col-lg-4.col-md-6.footer-newsletter
+          h4 Savollar uchun:
+          p Sizni qiziqtirgan savollarga javob beramiz.
+          form(action='' method='post')
+            input(type='email' name='email')
+            input(type='submit' value='Subscribe')
+  .container
+    .copyright
+      | &copy; Copyright 
+      strong
+        span MagicSoft Pro
+      | . All Rights Reserved
+    .credits
+      // All the links in the footer should remain intact.
+      // You can delete the links only if you purchased the pro version.
+      // Licensing information: https://bootstrapmade.com/license/
+      // Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
+      | Designed by 
+      a(href='') Kalandarov Jamshid
+// End Footer
+a.back-to-top.d-flex.align-items-center.justify-content-center(href='#')
+  i.bi.bi-arrow-up-short
+#preloader
+// Vendor JS Files
+script(src='assets/vendor/aos/aos.js')
+script(src='assets/vendor/bootstrap/js/bootstrap.bundle.min.js')
+script(src='assets/vendor/glightbox/js/glightbox.min.js')
+script(src='assets/vendor/isotope-layout/isotope.pkgd.min.js')
+script(src='assets/vendor/swiper/swiper-bundle.min.js')
+script(src='assets/vendor/php-email-form/validate.js')
+// Template Main JS File
+script(src='assets/js/main.js')
+script(src='assets/js/axios.js')
+script(src='assets/js/register.js')

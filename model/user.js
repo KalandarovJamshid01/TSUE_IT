@@ -30,9 +30,9 @@ const userSchema = mongoose.Schema({
     required: true,
   },
   grade: {
-    type: Number,
-    enum: [1, 2, 3, 4],
-    default: 1,
+    type: String,
+    enum: ["1", "2", "3", "4", "Boshqa"],
+    default: "1",
     required: true,
   },
   course: {
@@ -46,11 +46,11 @@ const userSchema = mongoose.Schema({
   },
   english: {
     type: String,
-    enum: ["beginner", "intermediate", "advanced"],
+    enum: ["Beginner", "Intermediate", "Advanced"],
   },
   math: {
     type: String,
-    enum: ["Boshlang'ich", "O'rta", "A'lo darajada"],
+    enum: ["Boshlang'ich", "O'rta", "Yuqori"],
   },
 });
 

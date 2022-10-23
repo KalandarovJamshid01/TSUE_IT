@@ -8,5 +8,13 @@ const register = async (req, res, next) => {
     console.log(error);
   }
 };
+const getAll = async (req, res, next) => {
+  try {
+    const users = await User.find();
+    res.status(200).json(users);
+  } catch (error) {
+    console.log(error);
+  }
+};
 
-module.exports = { register };
+module.exports = { register, getAll };

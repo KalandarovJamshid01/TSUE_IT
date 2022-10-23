@@ -2,6 +2,8 @@ const express = require("express");
 const app = express();
 const user = require("./route/user");
 const view = require("./route/view");
+const path = require("path");
+
 app.use(express.json());
 
 const pug = require("pug");
@@ -18,8 +20,6 @@ app.set("views", path.join(__dirname, "./views"));
 
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static("public"));
-
-app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use("/", view);
 app.use("/users/", user);

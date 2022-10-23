@@ -1,0 +1,466 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(content='width=device-width, initial-scale=1.0' name='viewport')
+  title TSUE_IT
+  meta(content='' name='description')
+  meta(content='' name='keywords')
+  // Favicons
+  link(href='assets/img/favicon.png' rel='icon')
+  // Google Fonts
+  link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i' rel='stylesheet')
+  // Vendor CSS Files
+  link(href='assets/vendor/aos/aos.css' rel='stylesheet')
+  link(href='assets/vendor/bootstrap/css/bootstrap.min.css' rel='stylesheet')
+  link(href='assets/vendor/bootstrap-icons/bootstrap-icons.css' rel='stylesheet')
+  link(href='assets/vendor/boxicons/css/boxicons.min.css' rel='stylesheet')
+  link(href='assets/vendor/glightbox/css/glightbox.min.css' rel='stylesheet')
+  link(href='assets/vendor/swiper/swiper-bundle.min.css' rel='stylesheet')
+  // Template Main CSS File
+  link(href='assets/css/style.css' rel='stylesheet')
+  //
+    =======================================================
+    * Template Name: Day - v4.9.1
+    * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ========================================================
+// ======= Top Bar =======
+section#topbar.d-flex.align-items-center
+  .container.d-flex.justify-content-center.justify-content-md-between
+    .contact-info.d-flex.align-items-center
+      i.bi.bi-envelope-fill
+      a(href='mailto:contact@example.com' style='font-size: 12px') kalandarovjamshid01@gmail.com
+      i.bi.bi-phone-fill.phone-icon
+      span(style='font-size: 12px') +998-97-507-70-61
+    .social-links.d-none.d-md-block
+      a.twitter(href='#')
+        i.bi.bi-telegram
+      a.facebook(href='#')
+        i.bi.bi-github
+      a.instagram(href='#')
+        i.bi.bi-instagram
+// ======= Header =======
+header#header.d-flex.align-items-center
+  .container.d-flex.align-items-center.justify-content-between
+    h1.logo
+      a(href='index.html') TSUE_IT
+    // Uncomment below if you prefer to use an image logo
+    // <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+    nav#navbar.navbar
+      ul
+        li
+          a.nav-link.scrollto.active(href='#hero') Home
+        li
+          a.nav-link.scrollto(href='#about') Why IT
+        li
+          a.nav-link.scrollto(href='#services') Why Us
+        li
+          a.nav-link.scrollto(href='#portfolio') Courses
+        li
+          a.nav-link.scrollto(href='#team') Team
+        li
+          a.nav-link.scrollto(href='/register') Register
+      i.bi.bi-list.mobile-nav-toggle
+    // .navbar
+// End Header
+// ======= Hero Section =======
+section#hero.d-flex.align-items-center(style='height: 100vh')
+  .container.position-relative(data-aos='fade-up' data-aos-delay='500')
+    h2.fw-bolder.text-white
+      | Dunyoqarash-hamma narsani o&apos;zgartiradi.
+    h2.align-baseline
+      | Dunyoqarashni nima o&apos;zgartiradi-Ilm,Daromad,Manfaat...
+      p.fst-italic.text-secondary.text-lg-center
+        | Shavkat Mirziyoyev.
+    a.btn-get-started.scrollto(href='/register.html') Hoziroq qo&apos;shiling
+// End Hero
+main#main
+  // ======= About Section =======
+  section#about.about
+    .container
+      h2.text-center.pb-3(style='font-weight: bold') Why IT?
+      .row
+        .col-lg-6.order-1.order-lg-2(data-aos='fade-left')
+          img.img-fluid(src='assets/img/about.jpg' alt='')
+        .col-lg-6.pt-4.pt-lg-0.order-2.order-lg-1.content(data-aos='fade-right')
+          h3 Nima uchun dasturlashni o&apos;rganishingiz kerak?
+          p.fst-italic
+            | IT_sfera O&apos;zbekistonga yaqinda kirib kelganligi va
+            | dasturchilarga bozorda talab haddan tashqari yuqoriligi bunga
+            | asosiy sabablardan biri bo&apos;la oladi.
+          ul
+            li
+              i.bi.bi-check-circle
+              | Nafaqat O&apos;zbekistonda, balki
+              |                   butun dunyo miqyosida dasturchilarga bo&apos;lgan talabning
+              |                   kattaligi
+            li
+              i.bi.bi-check-circle
+              | Xohlagan joyingizda,
+              |                   xohlagan formangizda va xohlagan vaqtingizda ishlash
+              |                   imkoniyati
+            li
+              i.bi.bi-check-circle
+              | Va albatta,
+              |                   xohlaganingizdanda ko&apos;proq maosh olishingiz mumkin
+          p
+            | Bundan tashqari siz bu kasb egasi bo&apos;lsangiz, bir vaqtni o&apos;zida
+            | 2 ta, 3ta kompaniyada ishlay olishingiz mumkin yoki IT
+            | bozorining katta katta platformalari, ya&apos;ni UPWORK,FREELANCER
+            | kabilarning eshiklari siz uchun ochiladi.
+  // End About Section
+  // ======= Clients Section =======
+  section#clients.clients
+    .container(data-aos='zoom-in')
+      .row.d-flex.align-items-center
+        .col-lg-2.col-md-4.col-6
+          img.img-fluid(src='assets/img/clients/client-1.png' alt='')
+        .col-lg-2.col-md-4.col-6
+          img.img-fluid(src='assets/img/clients/client-2.png' alt='')
+        .col-lg-2.col-md-4.col-6
+          img.img-fluid(src='assets/img/clients/client-3.png' alt='')
+        .col-lg-2.col-md-4.col-6
+          img.img-fluid(src='assets/img/clients/client-4.png' alt='')
+        .col-lg-2.col-md-4.col-6
+          img.img-fluid(src='assets/img/clients/client-5.png' alt='')
+        .col-lg-2.col-md-4.col-6
+          img.img-fluid(src='assets/img/clients/client-6.png' alt='')
+  // End Clients Section
+  // ======= Services Section =======
+  section#services.about
+    .container
+      h2.text-center.pb-3(style='font-weight: bold') Why Us?
+      .row
+        .col-lg-6.order-2.order-lg-1(data-aos='fade-left')
+          img.img-fluid(src='assets/img/portfolio/okay.jpg' alt='')
+        .col-lg-6.pt-4.pt-lg-0.order-1.order-lg-2.content(data-aos='fade-right')
+          h3 Nima uchun dasturlashni bizda o&apos;rganishingiz kerak?
+          p.fst-italic
+          ul
+            li
+              i.bi.bi-check-circle
+              | Darslarni hozirda dasturlash
+              |                   sohasida faoliyat yuritib kelayotgan, middle va senior
+              |                   darajadagi dasturchilar o&apos;tishi.
+            li
+              i.bi.bi-check-circle
+              | Darsdan tashqari vaqtlarda
+              |                   har bir o&apos;quvchi bilan individualniy ishlash.
+            li
+              i.bi.bi-check-circle
+              | O&apos;qitishda talbchanlikning
+              |                   kuchliligi,son emas sifat muhimligi.
+          p.h2.text-danger WOW!!!
+          p
+            | Bundan tashqari, Toshkent Davlat Iqtisodiyot universitetining
+            | Yoshlar Ittifoqi kengashi tomonidan katta imkoniyat. Ya&apos;ni kurs
+            | pullariga 
+            span.text-danger.h4  50%lik
+            |  chegirma
+            |                 beriladi.
+          p
+            | Agar shaxsiy kompyuteringiz yo&apos;q bo&apos;lsa, dars davomida kompyuter
+            | bilan ham ta&apos;minlaymiz.Joylarimiz cheklangan...
+  // End Services Section
+  // ======= Cta Section =======
+  section#cta.cta
+    .container(data-aos='zoom-in')
+      .text-center
+        h3 Sizdan:
+        p
+          | Faqat rozilik, ozgina qat&apos;iyat va ozgina mehnat. Keyin esa
+          | mavaffaqiyat!
+        a.cta-btn(href='/register.html') Hoziroq qo&apos;shiling
+  // End Cta Section
+  // ======= Portfolio Section =======
+  section#portfolio.portfolio
+    .container
+      .section-title
+        h2 Courses
+        p
+          | Bizning Frontend,Backend va FullStack kurslarimiz bilan tanishing
+      .row.portfolio-container(data-aos-delay='150')
+        .col-lg-4.col-md-6.portfolio-item.filter-card
+          img.img-fluid(src='assets/img/portfolio/web-design.9071c3ef.png' alt='')
+          .p-3.flex-row
+            h3.fw-bold Frontend
+            .d-flex.justify-content-between.align-items-center.pb-2
+              i.bi.bi-book(style='font-style: normal') 120 Dars
+              i.bi.bi-person(style='font-style: normal') 15
+            .d-flex.justify-content-between.align-items-center
+              a.btn.btn-outline-success(href='/register.html') Hoziroq Qo&apos;shiling
+              button.btn.btn-outline-primary(type='button' data-bs-toggle='offcanvas' data-bs-target='#offcanvasTop' aria-controls='offcanvasTop')
+                | Ko&apos;proq
+            #offcanvasTop.offcanvas.offcanvas-top.h-100.m-5.p-3(tabindex='100' aria-labelledby='offcanvasTopLabel')
+              .offcanvas-header
+                h5#offcanvasTopLabel.fw-bold Frontend
+                button.btn-close.text-reset(type='button' data-bs-dismiss='offcanvas' aria-label='Close')
+              .offcanvas-body
+                ul
+                  li Darslar: 120
+                  li O&apos;quvchilar soni: 15
+                  li
+                    | Narx: 
+                    del 600,000
+                  li Chegirma narx: 300,000
+                  li Haftada Darslar: 3 kun
+                  li Dars vaqti: 19:00-21:30
+                  li Dars davomiyligi: 6oy
+                  li Amaliyot: +1 oy
+                  li Texnologiyalar:
+                  ol.fw-bold
+                    li HTML
+                    li CSS
+                    li SASS
+                    li BOOTSTRAP
+                    li GIT, GITHUB
+                    li JAVASCRIPT
+                    li JQUERY
+                    li FIREBASE
+                    li AWS
+                    li REST API
+                    li GRAPHQL
+                    li REACTJs
+                    li TYPESCRIPT
+                    li JWT
+        .col-lg-4.col-md-6.portfolio-item.filter-card
+          img.img-fluid(src='assets/img/portfolio/graphics-design.08c25c6b.png' alt='')
+          .p-3.flex-row
+            h3.fw-bold Backend
+            .d-flex.justify-content-between.align-items-center.pb-2
+              i.bi.bi-book(style='font-style: normal') 140 Dars
+              i.bi.bi-person(style='font-style: normal') 15
+            .d-flex.justify-content-between.align-items-center
+              a.btn.btn-outline-success(href='/register.html') Hoziroq Qo&apos;shiling
+              button.btn.btn-outline-primary(type='button' data-bs-toggle='offcanvas' data-bs-target='#offcanvasTop2' aria-controls='offcanvasTop')
+                | Ko&apos;proq
+            #offcanvasTop2.offcanvas.offcanvas-top.h-100.m-5.p-3(tabindex='100' aria-labelledby='offcanvasTopLabel')
+              .offcanvas-header
+                h5#offcanvasTopLabel.fw-bold Backend
+                button.btn-close.text-reset(type='button' data-bs-dismiss='offcanvas' aria-label='Close')
+              .offcanvas-body
+                ul
+                  li Darslar: 140
+                  li O&apos;quvchilar soni: 15
+                  li
+                    | Narx: 
+                    del 600,000
+                  li Chegirma narx: 300,000
+                  li Haftada Darslar: 3 kun
+                  li Dars vaqti: 19:00-21:30
+                  li Dars davomiyligi: 7 oy
+                  li Amaliyot: +1 oy
+                  li Texnologiyalar:
+                  ol.fw-bold
+                    li HTML
+                    li CSS
+                    li GIT, GITHUB
+                    li JAVASCRIPT
+                    li NODEJS
+                    li EXPRESSJS
+                    li MONGODB
+                    li REDIS
+                    li POSTGRESQL
+                    li AWS SERVERS
+                    li REST API
+                    li GRAPHQL
+                    li FIREBASE
+                    li DOCKER
+                    li TYPESCRIPT
+        .col-lg-4.col-md-6.portfolio-item.filter-card
+          img.img-fluid(src='assets/img/portfolio/web-development.91ce5338.png' alt='')
+          .p-3.flex-row
+            h3.fw-bold FullStack
+            .d-flex.justify-content-between.align-items-center.pb-2
+              i.bi.bi-book(style='font-style: normal') 160 Dars
+              i.bi.bi-person(style='font-style: normal') 15
+            .d-flex.justify-content-between.align-items-center
+              a.btn.btn-outline-success(href='/register.html') Hoziroq Qo&apos;shiling
+              button.btn.btn-outline-primary(type='button' data-bs-toggle='offcanvas' data-bs-target='#offcanvasTop3' aria-controls='offcanvasTop')
+                | Ko&apos;proq
+            #offcanvasTop3.offcanvas.offcanvas-top.h-100.m-5.p-3(tabindex='100' aria-labelledby='offcanvasTopLabel')
+              .offcanvas-header
+                h5#offcanvasTopLabel.fw-bold FullStack
+                button.btn-close.text-reset(type='button' data-bs-dismiss='offcanvas' aria-label='Close')
+              .offcanvas-body
+                ul
+                  li Darslar: 160
+                  li O&apos;quvchilar soni: 15
+                  li
+                    | Narx: 
+                    del 700,000
+                  li Chegirma narx: 350,000
+                  li Haftada Darslar: 4 kun
+                  li Dars vaqti: 19:00-21:30
+                  li Dars davomiyligi: 8 oy
+                  li Amaliyot: +1 oy
+                  li Texnologiyalar:
+                  ol.fw-bold
+                    li HTML
+                    li CSS
+                    li BOOTSTRAP
+                    li GIT, GITHUB
+                    li JAVASCRIPT
+                    li JQUERY
+                    li REACTJS
+                    li REST API
+                    li GRAPHQL
+                    li NODEJS
+                    li EXPRESSJS
+                    li MONGODB
+                    li REDIS
+                    li POSTGRESQL
+                    li AWS SERVERS
+                    li FIREBASE
+                    li DOCKER
+                    li AWS
+                    li TYPESCRIPT
+  // End Portfolio Section
+  // ======= Team Section =======
+  section#team.team
+    .container
+      .section-title
+        h2 Jamoamiz
+      .row
+        .col-lg-4.col-md-6.d-flex.align-items-stretch(data-aos='zoom-in')
+          .member
+            img.rounded-circle.top-0.left-0(src='assets/img/team/team-1.jpg' alt='')
+            h4 Jamshid Kalandarov
+            span Middle FullStack Developer
+            .social
+              a(href='')
+                i.bi.bi-github
+              a(href='')
+                i.bi.bi-telegram
+              a(href='')
+                i.bi.bi-instagram
+              a(href='')
+                i.bi.bi-linkedin
+        .col-lg-4.col-md-6.d-flex.align-items-stretch(data-aos='zoom-in')
+          .member
+            img(src='assets/img/team/team-2.jpeg' alt='')
+            h4 Umid Rustamov
+            span Senior Backend Developer
+            .social
+              a(href='')
+                i.bi.bi-github
+              a(href='')
+                i.bi.bi-telegram
+              a(href='')
+                i.bi.bi-instagram
+              a(href='')
+                i.bi.bi-linkedin
+        .col-lg-4.col-md-6.d-flex.align-items-stretch(data-aos='zoom-in')
+          .member
+            img(src='assets/img/team/team-3.jpg' alt='')
+            h4 Mironshoh Asadov
+            span Middle Frontend Developer
+            .social
+              a(href='')
+                i.bi.bi-github
+              a(href='')
+                i.bi.bi-telegram
+              a(href='')
+                i.bi.bi-instagram
+              a(href='')
+                i.bi.bi-linkedin
+  // End Team Section
+// End #main
+// ======= Footer =======
+footer#footer
+  .footer-top
+    .container
+      .row
+        .col-lg-4.col-md-6
+          .footer-info
+            h3 TSUE_IT
+            p
+              | Amir Temur ko&apos;chasi 
+              br
+              |                   Tashkent
+              br
+              br
+              strong Nomer:
+              |  +998-97-507-70-61
+              br
+              strong Email:
+              |                   kalandarovjamshid01@gmail.com.com
+              br
+            .social-links.mt-3
+              a.twitter(href='')
+                i.bx.bxl-telegram
+              a.facebook(href='#')
+                i.bx.bxl-github
+              a.instagram(href='#')
+                i.bx.bxl-instagram
+              a.linkedin(href='#')
+                i.bx.bxl-linkedin
+        .col-lg-2.col-md-6.footer-links
+          h4 Useful Links
+          ul
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Home
+            li
+              i.bx.bx-chevron-right
+              a(href='#') About us
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Services
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Terms of service
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Privacy policy
+        .col-lg-2.col-md-6.footer-links
+          h4 Our Services
+          ul
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Web Design
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Web Development
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Product Management
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Marketing
+            li
+              i.bx.bx-chevron-right
+              a(href='#') Graphic Design
+        .col-lg-4.col-md-6.footer-newsletter
+          h4 Savollar uchun:
+          p Sizni qiziqtirgan savollarga javob beramiz.
+          form(action='' method='post')
+            input(type='email' name='email')
+            input(type='submit' value='Subscribe')
+  .container
+    .copyright
+      | &copy; Copyright 
+      strong
+        span MagicSoft Pro
+      | . All Rights Reserved
+    .credits
+      // All the links in the footer should remain intact.
+      // You can delete the links only if you purchased the pro version.
+      // Licensing information: https://bootstrapmade.com/license/
+      // Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
+      | Designed by 
+      a(href='') Kalandarov Jamshid
+// End Footer
+a.back-to-top.d-flex.align-items-center.justify-content-center(href='#')
+  i.bi.bi-arrow-up-short
+#preloader
+// Vendor JS Files
+script(src='assets/vendor/aos/aos.js')
+script(src='assets/vendor/bootstrap/js/bootstrap.bundle.min.js')
+script(src='assets/vendor/glightbox/js/glightbox.min.js')
+script(src='assets/vendor/isotope-layout/isotope.pkgd.min.js')
+script(src='assets/vendor/swiper/swiper-bundle.min.js')
+script(src='assets/vendor/php-email-form/validate.js')
+// Template Main JS File
+script(src='assets/js/main.js')
